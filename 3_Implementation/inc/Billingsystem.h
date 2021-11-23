@@ -6,13 +6,13 @@
 #include<ctype.h>
 #include<conio.h>
 
-void create(int);
+void create(int productno char productname int quantity int price);
 void bill();
-void display();
+void display(int);
 void edit();
 void invoice ();
 void menudelete();
-void menuplay();
+void menuplay(int);
 
 
 #endif
