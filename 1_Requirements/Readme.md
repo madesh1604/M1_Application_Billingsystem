@@ -33,7 +33,9 @@ Although graphics has not been used in this project, the application of user def
 
 Customer Billing System application is so simple to use. In order to use the application, click at the exe file and then, you will have three options to:
 1.	 To add product
+
 2.	 To search product
+
 3.	 To exit
 As per your need, enter 1, 2,or 3 and follow the instructions provided by the application itself.
 
