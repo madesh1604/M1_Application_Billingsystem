@@ -9,15 +9,15 @@ Customer Billing System is an application designed to generate the bill to the c
 The running cost needs an working system with an the battery backsups.
 The average cost of manually processing and sending an invoice is about US$25, which covers labor, paper and ink, and postage costs. Billing software does not require these expenses as invoices are sent electronically via email. This way saves a considerable amount of money.
   ## __Features__  
-1. It can hold any number of accounts and account can be added to the program at any time.
+1.  t can hold any number of product and price can be added to the program at any time.
 
-2. The programming of simple calculations such as calculation of due amount, balance etc. have been embed in the code of project.
+2.  The programming of simple calculations such as calculation of  amount, quantity etc. have been embed in the code of project.
 
-3. The Customer Billing System project in C gives you the facility of searching the account by two ways, either by name of the customer or by the number of customer.
+3.  The Customer Billing System project in C gives you the facility of searching the products by two ways, either by name of the product or by the code of product.
 
-4. The due amount to be paid is shown as negative balance.
+4.  The  amount to be paid is shown as bottom.
 
-5. If you have nothing to do with the program, you can directly exit from the main menu.
+5.  If you have nothing to do with the program, you can directly exit from the main menu.
 
    ## __TimeLine__
 Problem Statement ---> Research ---> Plan --->Design --->Implement--->Testing --->Execute---> Out for Market 
