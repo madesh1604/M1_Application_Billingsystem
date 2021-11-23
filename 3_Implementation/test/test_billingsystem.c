@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <function.h>
-#define PROJECT_NAME    "Billing System"
+#define PROJECT_NAME    "Billing_System"
 
 /* Prototypes for all the test functions */
 void test_bill(void);
