@@ -11,8 +11,6 @@
 |8| Delete Items|  Customer wants to delete the items  __productcode="01"__|
 |9| Bill | Finall Bill was created|
 
-
-
 ## Expected Output:
 |  ID   |  Expected Output |
 |  --   |  --------------  |
