@@ -13,22 +13,22 @@ void mdelete()
 	scanf("%d",&f);
 	for(i=0;i<ti;i++)
 	{
-	  if(cst[i].productno==f)
-	  {aj=cst[i].quantity;
+	  if(customer[i].productno==f)
+	  {aj=customer[i].quantity;
 	  printf("\nproduct deleted successfully\n");} 
 	  continue;
-	  cstr[g].productno=cst[i].productno;
-	  strcpy(cstr[g].productname,cst[i].productname);
-	  cstr[g].quantity=cst[i].quantity; 
-	  cstr[g].price=cst[i].price;
+	  cstr[g].productno=customer[i].productno;
+	  strcpy(cstr[g].productname,customer[i].productname);
+	  cstr[g].quantity=customer[i].quantity; 
+	  cstr[g].price=u[i].price;
 	  g++;
 	}
 	for(j=0;j<g;j++)
 	{
-	 cst[j].productno=cstr[j].productno;
- 	 strcpy(cst[j].productname,cstr[j].productname);
-	  cst[j].quantity=cstr[j].quantity; 
-	  cst[j].price=cstr[j].price;
+	 customer[j].productno=cstr[j].productno;
+ 	 strcpy(customer[j].productname,cstr[j].productname);
+	  customer[j].quantity=cstr[j].quantity; 
+	  customer[j].price=cstr[j].price;
 	}
 	ti=g;
 	printf("\n%d",aj);
@@ -36,15 +36,15 @@ void mdelete()
 	fw=fopen("temp4.txt","w");
 	for(j=0;j<n;j++)
 	{
-		    fscanf(fq,"%d",&it.productno);
-		    scanf(fq,"%s",&it.productname);
-			fscanf(fq,"%d",&it.quantity);
-			fscanf(fq,"%d",&it.price);
-			if(it.productno==f)
-			{ag=aj+it.quantity;
-			fprintf(fw,"%d\t%s\t%d\t%d\t",it.productno,it.productname,ag,it.price);}
+		    fscanf(fq,"%d",&item.productno);
+		    scanf(fq,"%s",&item.productname);
+			fscanf(fq,"%d",&item.quantity);
+			fscanf(fq,"%d",&item.price);
+			if(item.productno==f)
+			{ag=aj+item.quantity;
+			fprintf(fw,"%d\t%s\t%d\t%d\t",item.productno,item.productname,ag,item.price);}
             else
-			fprintf(fw,"%d\t%s\t%d\t%d\t",it.productno,it.productname,it.quantity,it.price);	
+			fprintf(fw,"%d\t%s\t%d\t%d\t",item.productno,item.productname,item.quantity,item.price);	
 			
 	}
 	fclose(fq);
