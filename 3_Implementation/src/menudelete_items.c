@@ -37,7 +37,7 @@ void mdelete()
 	for(j=0;j<n;j++)
 	{
 		    fscanf(fq,"%d",&it.productno);
-		    fscanf(fq,"%s",&it.productname);
+		    scanf(fq,"%s",&it.productname);
 			fscanf(fq,"%d",&it.quantity);
 			fscanf(fq,"%d",&it.price);
 			if(it.productno==f)
