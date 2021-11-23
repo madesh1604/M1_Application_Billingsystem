@@ -1,4 +1,4 @@
-## Test Cases :
+## Test Cases 
 |   ID   |        Test Scenario           |          Test Data              |
 |   --  |      ----------------------          |          ---------              |
 |   1    |       For logIn - Administrator needs   Password              |  Administrator password "SANKAR"    |
@@ -11,7 +11,7 @@
 |8| Delete Items|  Customer wants to delete the items  __productcode="01"__|
 |9| Bill | Finall Bill was created|
 
-## Expected Output:
+## Expected Output
 |  ID   |  Expected Output |
 |  --   |  --------------  |
 |  1    | Administrator loged In Successfullly|
