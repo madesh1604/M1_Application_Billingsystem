@@ -98,4 +98,3 @@ __LOW LEVEL REQUIREMENTS__
 | LLR1 | User Inputs | To Check the options they choose |
 | LLR2 | Basic operation | To generate bills |
 | LLR3 | Multifile Approach | To reduce the code structure |
-       
