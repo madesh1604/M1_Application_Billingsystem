@@ -18,13 +18,13 @@ void invoice()
 	printf("================================================================================\n");
 	for(o=0;o<ti;o++)
 	{
-		cst[o].amount=0;
-		cst[o].amount=(cst[o].quantity)*(cst[o].price);
-		gt=gt+cst[o].amount;		
+		customer[o].amount=0;
+		customer[o].amount=(cst[o].quantity)*(customer[o].price);
+		gt=gt+customer[o].amount;		
 	}
 	for(j=0;j<ti;j++)
 	{
-		printf("%6d\t       |%9s   \t  | %3d\t|%3d\t        |   %3d\n",cst[j].productno,cst[j].productname,cst[j].price,cst[j].quantity,cst[j].amount);
+		printf("%6d\t       |%9s   \t  | %3d\t|%3d\t        |   %3d\n",customer[j].productno,customer[j].productname,customer[j].price,customer[j].quantity,customer[j].amount);
 	}
 	printf("\n amount payable is %f",gt);
 	printf("thank you for shopping\ncome again\n");
