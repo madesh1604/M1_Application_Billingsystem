@@ -33,6 +33,13 @@ Customer Billing System application is so simple to use. In order to use the app
 3.	To exit
 As per your need, enter 1, 2,or 3 and follow the instructions provided by the application itself.
 
+__TOOLS USED__
+1. GCC Compiler
+2. G-Edit
+3. GNU/GDB debugger
+4. C/C++ interpreter Ch 5.0       
+
+
 ## SWOT Analysis
 __STRENGTH__ :
 The manual billing procedure is often tedious and inconvenient. After verifying the transaction, you have to fill out an invoice, register it into your records, extract information, update records, and send the billing statement.With invoicing Applicaion, all that hard work can be done with just a click of a button. The only manual task is to encode the customer and transaction details. Once done, the invoice is generated and sent to the customer. It can even be scheduled to send invoices automatically based on agreed payment terms or billing cycle.
