@@ -43,7 +43,6 @@ __TOOLS USED__
 3.  GNU/GDB debugger
 4.  C/C++ interpreter Ch 5.0       
 
-
 ## SWOT Analysis
 __STRENGTH__ 
 The manual billing procedure is often tedious and inconvenient. After verifying the transaction, you have to fill out an invoice, register it into your records, extract information, update records, and send the billing statement.With invoicing Applicaion, all that hard work can be done with just a click of a button. The only manual task is to encode the customer and transaction details. Once done, the invoice is generated and sent to the customer. It can even be scheduled to send invoices automatically based on agreed payment terms or billing cycle.
