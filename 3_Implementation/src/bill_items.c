@@ -12,11 +12,11 @@ fptr=fopen("temp.txt","w");
 while(!(feof(fp)))
 {
 	l++;
-fscanf(fp,"%d",&it.productno);
-scanf(fp,"%s",&it.productname);
-fscanf(fp,"%d",&it.quantity);
-fscanf(fp,"%d",&it.price);
-fscanf(fp,"%f",&it.discount);
+fscanf(fp,"%d",&item.productno);
+scanf(fp,"%s",&item.productname);
+fscanf(fp,"%d",&item.quantity);
+fscanf(fp,"%d",&item.price);
+fscanf(fp,"%f",&item.discount);
 if(it.productno==na)
 {
 	ln++;
@@ -26,11 +26,11 @@ if(it.productno==na)
 	scanf("%d",&a);
 	if(a<=it.quantity)
 	{
-		cst[ti].productno=it.productno;
-		strcpy(cst[ti].productname,it.productname);
-		cst[ti].quantity=a;
-		cst[ti].price=it.price;
-		it.quantity=it.quantity-a;
+		customer[ti].productno=item.productno;
+		strcpy(customer[ti].productname,item.productname);
+		customer[ti].quantity=a;
+		customer[ti].price=item.price;
+		item.quantity=item.quantity-a;
 		ti++;
 		//goto l1;	
 	}
@@ -42,16 +42,16 @@ if(it.productno==na)
 else
 {
 	cont++;
-    fprintf(fptr,"%d\t",it.productno);
-    fprintf(fptr,"%s\t",it.productname);
-    fprintf(fptr,"%d\t",it.quantity);
-    fprintf(fptr,"%d\t",it.price);
+    fprintf(fptr,"%d\t",item.productno);
+    fprintf(fptr,"%s\t",item.productname);
+    fprintf(fptr,"%d\t",item.quantity);
+    fprintf(fptr,"%d\t",item.price);
 	continue;
 }
-fprintf(fptr,"%d\t",it.productno);
-fprintf(fptr,"%s\t",it.productname);
-fprintf(fptr,"%d\t",it.quantity);
-fprintf(fptr,"%d\t",it.price);
+fprintf(fptr,"%d\t",item.productno);
+fprintf(fptr,"%s\t",item.productname);
+fprintf(fptr,"%d\t",item.quantity);
+fprintf(fptr,"%d\t",item.price);
 }
 if(l==cont)
 printf("error\nchoose proprly\n");
