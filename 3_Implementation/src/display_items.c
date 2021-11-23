@@ -20,16 +20,16 @@ void display()
 	while(nk!=n)
 	{
 		nk++;
-		fscanf(fp,"%d",&it.productno);
-		if(it.productno==0)
+		fscanf(fp,"%d",&item.productno);
+		if(item.productno==0)
 		{
 		printf("product number cannot be zero\n");
 		break;
 		}
-		scanf(fp,"%s",&it.productname);
-		fscanf(fp,"%d",&it.quantity);
-		fscanf(fp,"%d",&it.price);
-		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",it.productno,it.productname,it.quantity,it.price);		
+		scanf(fp,"%s",&item.productname);
+		fscanf(fp,"%d",&item.quantity);
+		fscanf(fp,"%d",&item.price);
+		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",item.productno,item.productname,item.quantity,item.price);		
 	}
 	fclose(fp);
 }
