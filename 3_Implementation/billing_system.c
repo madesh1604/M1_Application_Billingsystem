@@ -11,7 +11,7 @@ struct item
 	int quantity;
 	int price;
     float discount;
-}it;
+}item;
 struct customer
 {
 	int productno;
@@ -19,7 +19,7 @@ struct customer
 	int quantity;
 	int price;
 	int amount;
-}cst[100];
+}customer[100];
 struct temporory
 {
 	int productno;
