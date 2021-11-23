@@ -17,22 +17,22 @@ void edit()
 	while(!(ka==p))
 	{
 		ka++;
-		fscanf(fp,"%d",&it.productno);
-		if(it.productno==h)
+		fscanf(fp,"%d",&item.productno);
+		if(item.productno==h)
 		{
 			found=1;
-			scanf(fp,"%s",&it.productname);
-			fscanf(fp,"%d",&it.quantity);
-			fscanf(fp,"%d",&it.price);
+			scanf(fp,"%s",&item.productname);
+			fscanf(fp,"%d",&item.quantity);
+			fscanf(fp,"%d",&item.price);
 			n--;
 			printf("product has been sucessfully deleted\n");
 		}
 		else
 		{ 
-			scanf(fp,"%s",&it.productname);
-			fscanf(fp,"%d",&it.quantity);
-			fscanf(fp,"%d",&it.price);
-			fprintf(fptr,"%d\t%s\t%d\t%d\t",it.productno,it.productname,it.quantity,it.price);
+			scanf(fp,"%s",&item.productname);
+			fscanf(fp,"%d",&item.quantity);
+			fscanf(fp,"%d",&item.price);
+			fprintf(fptr,"%d\t%s\t%d\t%d\t",item.productno,item.productname,item.quantity,item.price);
 		}
 	}
 	    fprintf(fpk,"%d",n);
