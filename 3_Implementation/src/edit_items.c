@@ -21,7 +21,7 @@ void edit()
 		if(it.productno==h)
 		{
 			found=1;
-			fscanf(fp,"%s",&it.productname);
+			scanf(fp,"%s",&it.productname);
 			fscanf(fp,"%d",&it.quantity);
 			fscanf(fp,"%d",&it.price);
 			n--;
