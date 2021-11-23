@@ -26,7 +26,7 @@ void display()
 		printf("product number cannot be zero\n");
 		break;
 		}
-		fscanf(fp,"%s",it.productname);
+		fscanf(fp,"%s",&it.productname);
 		fscanf(fp,"%d",&it.quantity);
 		fscanf(fp,"%d",&it.price);
 		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",it.productno,it.productname,it.quantity,it.price);		
