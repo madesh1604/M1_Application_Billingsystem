@@ -28,16 +28,16 @@ Although graphics has not been used in this project, the application of user def
 *  void mdisplay()
 
 Customer Billing System application is so simple to use. In order to use the application, click at the exe file and then, you will have three options to:
-1.	To add product
-2.	To search product
-3.	To exit
+1.	 To add product
+2.	 To search product
+3.	 To exit
 As per your need, enter 1, 2,or 3 and follow the instructions provided by the application itself.
 
 __TOOLS USED__
-1. GCC Compiler
-2. G-Edit
-3. GNU/GDB debugger
-4. C/C++ interpreter Ch 5.0       
+1.  GCC Compiler
+2.  G-Edit
+3.  GNU/GDB debugger
+4.  C/C++ interpreter Ch 5.0       
 
 
 ## SWOT Analysis
