@@ -22,17 +22,17 @@ void create()
 	while(i<n)
 	{
 		printf("enter the product code\n");
-		scanf("%d",&it.productno);
+		scanf("%d",&item.productno);
 		printf("enter the name\n");
-		scanf("%s",it.productname);
+		scanf("%s",item.productname);
 		printf("enter the quantity\n");
-		scanf("%d",&it.quantity);
+		scanf("%d",&item.quantity);
 		printf("enter the price\n");
-		scanf("%d",&it.price);
+		scanf("%d",&item.price);
         printf("enter the discount in %");
         scanf("%f",&it.discount);
 		i++;
-		fprintf(fp,"%d\t%s\t%d\t%d\t",it.productno,it.productname,it.quantity,it. price,it.discount);
+		fprintf(fp,"%d\t%s\t%d\t%d\t",item.productno,item.productname,item.quantity,item. price,item.discount);
 	}
 	//fprintf(fp,"%d",0);
 	fclose(fp);
