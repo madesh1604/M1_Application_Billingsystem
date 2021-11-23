@@ -29,7 +29,7 @@ void edit()
 		}
 		else
 		{ 
-			fscanf(fp,"%s",&it.productname);
+			scanf(fp,"%s",&it.productname);
 			fscanf(fp,"%d",&it.quantity);
 			fscanf(fp,"%d",&it.price);
 			fprintf(fptr,"%d\t%s\t%d\t%d\t",it.productno,it.productname,it.quantity,it.price);
