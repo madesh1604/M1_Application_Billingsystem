@@ -2,7 +2,7 @@
 /////function 2***********
 void bill_items()
 {
-int na,a,cont=0,k,r=0,w=0,ch,l=0,bi=0,ln=0;
+int na,a,cont=0,k,r=0,w=0,l=0,bi=0,ln=0;
 //char k;
 l3 : printf("enter the product number\n");
 scanf("%d",&na);
