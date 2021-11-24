@@ -1,18 +1,32 @@
-#ifndef  function.h
-#define  function.h
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<ctype.h>
-#include<conio.h>
+#ifndef  __BILLINGSYSTEM_H
+#define  __BILLINGSYSTEM_H_
+#include<math.h>
 
-void create(int productno char productname int quantity int price);
-void bill();
-void display(int);
-void edit();
-void invoice ();
-void menudelete();
-void menuplay(int);
+typedef struct item
+{
+	int productno;
+	char productname[10];
+	int quantity;
+	int price;
+    float discount;
+}item;
+ typedef struct customer
+{
+	int productno;
+	char productname[10];
+	int quantity;
+	int price;
+	int amount;
+}customer[100];
+typedef struct temporory
+{
+	int productno;
+	char productname[10];
+	int quantity;
+	int price;
+	int amount;
+    float discount;
+}cstr[100];
 
 
 #endif
