@@ -5,15 +5,15 @@
 #include "stdlib.h"
 #include "string.h"
 #include "ctype.h"
-#include "billingsytem_.h"
+#include "Billingsytem.h"
 #include "conio.h"
 
 
 
-void create(int productno, char productname ,int quantity ,float price)
-void bill();
-void edit (int productno, char productname ,int quantity ,float price);
-void display();
+void create_items(int productno, char productname ,int quantity ,float price)
+void bill_items();
+void edit_items (int productno, char productname ,int quantity ,float price);
+void display_items();
 void invoice_items();
 void menudelete_items();
 void menudisplay_items();
