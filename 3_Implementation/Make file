@@ -4,13 +4,13 @@ PROJECT_NAME = Billing_System
 BUILD = build
 
 # All source code files
-SRC = src/create_items.c\
-src/bill_items.c\
-src/display_items.c\
-src/edit_items.c\
-src/invoice_items.c\
-src/menudelete_items.c\
-src/menudisplay_items.c\
+SRC = src/create_items.c
+src/bill_items.c
+src/display_items.c
+src/edit_items.c
+src/invoice_items.c
+src/menudelete_items.c
+src/menudisplay_items.c
 
 # All test source files
 TEST_SRC = ${SRC}\
@@ -23,8 +23,7 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc\
 -Iunity\
 
-#Library Inlcudes
-INCLUDE_LIBS = 
+
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
