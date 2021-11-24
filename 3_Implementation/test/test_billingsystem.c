@@ -1,8 +1,8 @@
 #include "unity.h"
 #include <billing_operation.h>
 
-/* Modify these two lines according to the project */
-#include <function.h>
+
+
 #define PROJECT_NAME    "Billing_System"
 
 /* Prototypes for all the test functions */
