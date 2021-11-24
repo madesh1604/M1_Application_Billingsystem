@@ -1,6 +1,6 @@
-#include"function.h"
+#include"Billing_operations.h"
 /////function 2***********
-void bill()
+void bill_items()
 {
 int na,a,cont=0,k,r=0,w=0,ch,l=0,bi=0,ln=0;
 //char k;
