@@ -1,4 +1,4 @@
-#include"Billing_operations.h"
+#include"billing_operations.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
@@ -7,7 +7,7 @@
 void menudelete_items()
 {
 	int i,j,f,g=0,aj=0,ag=0;
-	char ab[100];
+	
 	FILE *fw,*fq;
 	printf("enter the product number to be deleted\n");
 	scanf("%d",&f);
@@ -22,6 +22,7 @@ void menudelete_items()
 	  cstr[g].quantity=customer[i].quantity; 
 	  cstr[g].price=u[i].price;
 	  g++;
+          continue;
 	}
 	for(j=0;j<g;j++)
 	{
