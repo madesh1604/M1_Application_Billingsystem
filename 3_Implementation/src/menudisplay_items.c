@@ -1,10 +1,10 @@
-#include"Billing_operations.h"
+#include"billing_operations.h"
 #include<string.h>
 #include<ctype.h>
 
 void menudisplay_items()
 {
-	int i,j,o;
+	int ti,o;
 	printf("================================================================================\n");
 	printf("product number\t|product name\t|quantity\t|price\t\n");
 	printf("================================================================================\n");
