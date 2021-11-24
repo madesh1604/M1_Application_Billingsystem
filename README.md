@@ -15,5 +15,5 @@
 | 2_Design | Structural and Behavioural Diagram of the project |
 | 3_Implementation | All Codes and Unity files |
 | 4_TestPlan | Process of the project |
-| 5_Report | Detailed Process and Goal |
-| 6_Images and Videos | Images of output and videos of Whole process |
+| 5_Images and Videos | Images of output and videos of Whole process |
+| 6_Report | Detaied Process and Goal |
