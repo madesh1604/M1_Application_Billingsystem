@@ -6,8 +6,8 @@
 
 void invoice()
 {
-	int i,j,o;
-	float amt,gt=0;
+	int ti,j,o;
+	float amount,gt=0;
 	if(ti==0)
 	
 	{printf("no products in your cart\n");
