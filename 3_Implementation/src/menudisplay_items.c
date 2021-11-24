@@ -1,8 +1,8 @@
-#include"function.h"
+#include"Billing_operations.h"
 #include<string.h>
 #include<ctype.h>
 
-void mdisplay()
+void menudisplay_items()
 {
 	int i,j,o;
 	printf("================================================================================\n");
