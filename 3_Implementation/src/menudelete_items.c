@@ -1,10 +1,10 @@
-#include"function.h"
+#include"Billing_operations.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
 
 
-void mdelete()
+void menudelete_items()
 {
 	int i,j,f,g=0,aj=0,ag=0;
 	char ab[100];
