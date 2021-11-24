@@ -8,7 +8,7 @@ SRC = src/create_items.c\
 src/bill_items.c\
 src/display_items.c\
 src/edit_items.c\
-src/invoice_contact.c\
+src/invoice_items.c\
 src/menudelete_items.c\
 src/menudisplay_items.c\
 
