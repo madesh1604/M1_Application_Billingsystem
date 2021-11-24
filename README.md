@@ -5,3 +5,4 @@
 [![Linux C/C++ CI](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/c-cpp.yml)
 [![Windows C/C++ CI](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/windows_cpp.yml/badge.svg)](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/windows_cpp.yml)
 [![UnitTesting](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/unit_testing.yml)
+[![Static code Cppcheck](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/madesh1604/M1_Application_Billingsystem/actions/workflows/cppcheck.yml)
