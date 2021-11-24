@@ -1,4 +1,4 @@
-#include"Billing_operations.h"
+#include"billing_operations.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
@@ -7,7 +7,7 @@
 void edit_items()
 {
     FILE *fp,*fptr,*fpk;
-	int h,found=0,ka=0,z,p;
+	int h,found=0,ka=0,p;
 	fp=fopen("shop.txt","r");
 	fptr=fopen("temp1.txt","w");
 	fpk=fopen("temp2.txt","w");
