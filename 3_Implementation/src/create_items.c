@@ -1,4 +1,4 @@
-#include "functions.h"
+#include "Billsystem.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
