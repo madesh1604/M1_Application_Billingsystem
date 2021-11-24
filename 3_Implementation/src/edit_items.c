@@ -1,10 +1,10 @@
-#include"function.h"
+#include"illing_operations.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
 #include<conio.h>
 	
-void edit()
+void edit_items()
 {
     FILE *fp,*fptr,*fpk;
 	int h,found=0,ka=0,z,p;
