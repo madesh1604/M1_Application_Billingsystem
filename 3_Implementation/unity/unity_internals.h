@@ -1045,15 +1045,4 @@ int UnityTestMatches(void);
 
 /* End of UNITY_INTERNALS_H */
 #endif
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
