@@ -1,10 +1,10 @@
-#include "Billsystem.h"
+#include "Billing_operations.h"
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
 #include<conio.h>
 
-void create()
+void create_items()
 {
 	int i=0;
 	FILE *fp,*fpq;
