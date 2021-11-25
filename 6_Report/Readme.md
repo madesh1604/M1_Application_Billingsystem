@@ -133,4 +133,8 @@ __LOW LEVEL REQUIREMENTS__
 |8|__productcode="01"__ deleted from cart|
 |9| __Amount =1220   ; thank you for shopping come again.__
 
+# Output Image
+![image](https://user-images.githubusercontent.com/91029826/143377520-c4508517-1462-4196-a5ac-858ca948fa78.png)
+
+
 
