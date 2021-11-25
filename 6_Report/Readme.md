@@ -95,8 +95,11 @@ __LOW LEVEL REQUIREMENTS__
 | LLR2 | Basic operation | To generate bills |
 | LLR3 | Multifile Approach | To reduce the code structure |
 
-# Structural Diagram
+# Behavioural Diagram
 
 ![image](https://user-images.githubusercontent.com/91029826/143376522-1464dbee-0bf1-437f-8d65-ee2f6990601d.png)
 
-# Behavioural Diagram
+# Structural Diagram
+
+![image](https://user-images.githubusercontent.com/91029826/143376773-cd8a200d-955d-4dd4-8e97-0af719b4d57d.png)
+
