@@ -103,3 +103,8 @@ __LOW LEVEL REQUIREMENTS__
 
 ![image](https://user-images.githubusercontent.com/91029826/143376773-cd8a200d-955d-4dd4-8e97-0af719b4d57d.png)
 
+# Low Level Diagram
+
+![image](https://user-images.githubusercontent.com/91029826/143376903-40c31e2f-a81b-489c-80a4-6ca25fa5262d.png)
+
+
