@@ -1,4 +1,4 @@
-## Report
+# REPORT
 # REQUIREMENTS
 ## _Introduction_
 Customer Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer. You can use this application to keep the records such as name, address, mobile number, paid amount, due amount, payment date etc. of your regular costumer. Moreover, if you have a new customer, you can add and edit the account at any time.
@@ -94,3 +94,9 @@ __LOW LEVEL REQUIREMENTS__
 | LLR1 | User Inputs | To Check the options they choose |
 | LLR2 | Basic operation | To generate bills |
 | LLR3 | Multifile Approach | To reduce the code structure |
+
+# Structural Diagram
+
+![image](https://user-images.githubusercontent.com/91029826/143376522-1464dbee-0bf1-437f-8d65-ee2f6990601d.png)
+
+# Behavioural Diagram
